@@ -4,8 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>futuroscop.io</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet"> 
+
+    <style>
+
+        body, main {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        * {
+            max-width: 100%;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        body > * > * {
+            max-width: 60rem !important;
+            margin: 0 auto;
+        }
+
+        .Titulo {
+            margin: 3rem auto;
+            text-align: center;
+        }
+
+        .Introduccion {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 4rem;
+            margin: 6rem auto;
+        }
+
+        .Texto {
+            line-height: 1.5;
+        }
+
+
+    </style>
 </head>
 <body>
+
+
+    <header>
+
+        <div class="Portada">
+            <img src="recursos/imagenes/fsdiagrama.png" alt="">
+
+        </div>
+        <div class="Titulo">
+            <h1>
+                Futuroscopio
+            </h1>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="Introduccion">
+            
+            <div class="Texto">
+                <p>
+                    Futuroscopio is the third iteration of a project intended to sharpen critical thinking by playful interactions that enable foreseing alternative futures. It is the result of our collective interest to open dialogue in between disciplines, such as Design, Future Thinking, Arts and Digital Technology. We do this by playing, as we see games as vehicles easy to ride, able to socialise knowledge, address complexity, and distribute joy and excitement among wide audiences.
+                </p>
+            </div>
+
+            <div class="Imagen">
+                <img src="recursos/imagenes/bienal.jpg" alt="">
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="Imagen">
+            <img src="recursos/imagenes/fs.png" alt="">
+        </div>
+    </footer>
     
 </body>
 </html>
