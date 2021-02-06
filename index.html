@@ -37,16 +37,30 @@
         }
 
         .Introduccion {
-            display: grid;
-            grid-template-columns: 3fr 2fr;
-            gap: 4rem;
             margin: 6rem auto;
         }
+        .Introduccion .Texto {
+            padding: 2rem;
+        }
+
 
         .Texto {
             line-height: 1.5;
         }
 
+
+        @media screen and (min-width: 768px) {
+            
+            .Introduccion {
+                display: grid;
+                grid-template-columns: 3fr 2fr;
+                gap: 4rem;
+            }
+            .Introduccion .Texto {
+                padding: 0;
+            }
+
+        }
 
     </style>
 </head>
